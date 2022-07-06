@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+   }
+   body, html {
+    padding: 0;
+    margin: 0; 
+    background-color: #463e40;
+   }
+   .content {
+    width: 366px;
+    height: 366px; 
+    margin: auto; 
+    margin-top: 10%;
+    position: relative;
+    transition: all 3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/1200px-Atom_editor_logo.svg.png');
+    background-repeat: no-repeat;
+    background-size: 200px 200px; 
+    background-position: center;
+    background-radius: 50%;
+   }
+
+   div {
+    width: 366px;
+    height:366px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0 auto; 
+    display: block;
+    animation-name: spin;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   }
+   @keyframes spin {
+    from {
+    transform:rotate(0deg);
+   }
+    to {
+    transform:rotate(360deg);
+   }
+   }
+   .img {
+    position: absolute;
+    left:0;
+    top:0;
+    height: 366px;
+    width: 366px;
+   }
+   div:nth-child(8) {
+    animation-duration: 100s;
+    padding: 10em;
+   }
+   div:nth-child(7) {
+    animation-duration: 90s;
+   }
+   div:nth-child(6) {
+    animation-duration: 80s;
+   }
+   div:nth-child(5) { 
+   animation-duration: 70s;
+   }
+   div: nth-child(4) {
+    animation-duration: 60s;
+   }
+   div:nth-child(3) {
+    animation-duration: 50s;
+   }
+   div:nth-child(2) {
+    animation-duration: 40s;
+   }
+   .cat {
+    float: left;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    animation-name: cat;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   }
+   .catPic {
+    animation: mover 1s infinite alternate;
+   }
+   @keyframes mover {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-15px);}
+   }
+   @media screen and (max-width: 600px) {
+     .cat {
+     top: 100px;
+     left: 50px;
+     height: 50px;
+     width: 50px; 
+     }
+   }   
