@@ -4,7 +4,8 @@
    body, html {
     padding: 0;
     margin: 0; 
-    background-color: #463e40;
+    background-color: #403E3F;/*Cor nova*/
+    /*background-color: #463e40; Cor da versão anterior*/
    }
    .content {
     width: 366px;
@@ -13,9 +14,9 @@
     margin-top: 10%;
     position: relative;
     transition: all 3s ease;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/1200px-Atom_editor_logo.svg.png');
+    background-image: url('https://atom.io/assets/index-logo-112585a3112ec646fa9e426f835b1626094f57354fd7dd059a8f455881654ad2.svg');
     background-repeat: no-repeat;
-    background-size: 200px 200px; 
+    background-size: 130px 130px; 
     background-position: center;
     background-radius: 50%;
    }
