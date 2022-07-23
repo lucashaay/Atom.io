@@ -1,0 +1,60 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+#imagem{
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    width: 100px;
+    box-align: center; 
+}
+h1{ 
+    color:#333333;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    margin-top: 40px;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+}
+fieldset{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border: none;
+    color: #333333;
+}
+#email{
+    color: #333333;
+    padding: 0.5em;
+    border-width: 0.5px;
+    border-color: #232323;
+    border-radius: 7px;
+    width: 290px;
+    font-size: 18px;
+}
+.enviar{
+    display: block;
+    margin: 1em auto 0 auto;
+    width: 310px;
+    border: none;
+    border-radius: 7px;
+    padding: 0.7em;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #936529;
+    transition: 1s all;
+    cursor: pointer;
+    box-shadow: 5px 5px 6px #A3762A;
+}
+.enviar:hover{
+    background: #EDD968;
+    transform: scale(1.15);    
+}
